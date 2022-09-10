@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "app_function": "app.app",
+    "aws_region": "ap-east-1",
+    "profile_name": "hangkang",
+    "project_name": "ip",
+    "runtime": "python3.8",
+    "s3_bucket": "zappapro",
+    "certificate_arn": "arn:aws:acm:us-east-1:380028380553:certificate/75cd9be0-6d78-4d9c-b150-45b2563c4fd3",
+    "domain": "ip.haitian.link",
+    "context_header_mappings": {
+      "HTTP_header_name": "API_Gateway_context_variable"
+    }
+  }
+}
